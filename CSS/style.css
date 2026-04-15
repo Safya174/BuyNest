@@ -712,7 +712,7 @@ height:55px;
     box-sizing: border-box;
   }
   .Subscribe input {
-  width: 40%;            
+  width: 70%;            
   flex-grow: 1;         
   border: none;
   outline: none;
@@ -721,7 +721,7 @@ height:55px;
 }
 
 .Subscribe button {
-  width: auto;           
+  width: 30%;           
   white-space: nowrap;   
   padding: 10px 20px;
   border-radius: 50px;
