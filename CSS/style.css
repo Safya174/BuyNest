@@ -104,9 +104,12 @@ h4::after{
   padding:  15px 30px;
   background-color: var(--mainColor);
   border-radius: 30px;
- border: none;
- color: white;
- 
+  border: none;
+  color: white;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
 }
 .line{
   margin-top: 50px;
@@ -704,7 +707,7 @@ height:55px;
   font-size: 10px;
 }
   .Subscribe{
-    width: 20%;
+    width: 100%;
   }
   .product img{
    width: 100%;
