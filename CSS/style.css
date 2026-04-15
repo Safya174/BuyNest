@@ -712,7 +712,7 @@ height:55px;
     box-sizing: border-box;
   }
   .Subscribe input {
-  min-width: fit-content;          
+  min-width: auto;          
   flex-grow: 1;         
   border: none;
   outline: none;
