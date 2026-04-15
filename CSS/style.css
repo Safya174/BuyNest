@@ -712,17 +712,17 @@ height:55px;
     box-sizing: border-box;
   }
   .Subscribe input {
-  width: 60%;            /* حدد عرض مئوي للـ input */
-  flex-grow: 1;          /* خليه يملى اللي فاضل برضه */
+  width: 40%;            
+  flex-grow: 1;         
   border: none;
   outline: none;
   padding-left: 15px;
-  font-size: 14px;       /* صغر الخط شوية للموبايل */
+  font-size: 14px;       
 }
 
 .Subscribe button {
-  width: auto;           /* سيبه على قد كلمته */
-  white-space: nowrap;   /* (مهم) يمنع الكلمة إنها تنزل سطرين */
+  width: auto;           
+  white-space: nowrap;   
   padding: 10px 20px;
   border-radius: 50px;
   background-color: #3bb77e;
