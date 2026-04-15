@@ -699,33 +699,37 @@ height:55px;
  
   .sec-content h2{
  
-  font-size: 20px;
+  font-size: 28px;
 
 }
 .sec-content p{
  
-  font-size: 10px;
+  font-size: 13px;
 }
   .Subscribe{
     width: 100%;
-    padding: 10px;
+    padding: 14px;
     box-sizing: border-box;
   }
   .Subscribe input {
-  width: 70%;            
+  min-width: fit-content;          
   flex-grow: 1;         
   border: none;
   outline: none;
-  padding-left: 15px;
+
   font-size: 14px;       
+}
+.sec-content{
+  margin-left: 0 !important;
 }
 
 .Subscribe button {
-  width: 20%;           
+  width: auto;           
   white-space: nowrap;   
   padding: 10px 20px;
   border-radius: 50px;
-  background-color: #3bb77e;
+
+  background-color: var(--mainColor);
   color: white;
   border: none;
   font-size: 14px;
