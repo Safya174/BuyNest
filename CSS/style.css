@@ -385,6 +385,10 @@ height:55px;
   width: 60%;
   margin-top: 50px;
 }
+.width1{
+  width: 100%;
+
+}
 #sec8{
   margin-top: 100px;
 }
@@ -726,6 +730,11 @@ height:55px;
 .width{
   width: 100%;
 }
+.width1{
+  width: 130%;
+  
+}
+
 .Subscribe button {
   width: auto;           
   white-space: nowrap;   
