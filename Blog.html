@@ -1,0 +1,614 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog</title>
+    <link rel="stylesheet" href="./CSS/bootstrap.min.css" />
+    <link rel="stylesheet" href="./CSS/all.min.css" />
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="row mt-5">
+          <div class="col-md-3">
+            <div class="d-flex">
+              <figure>
+                <img src="./imges/Clip path group.png" alt="lago" />
+              </figure>
+              <figcaption class="ms-3">
+                <h2 class="h2-top">Nest</h2>
+                <p class="p-top">MART & GROCERY</p>
+              </figcaption>
+            </div>
+          </div>
+          <div class="col-md-5">
+            <div class="search">
+              <select class="border-0">
+                <option value="All Categories">All Categories</option>
+                <option value="Milks & Dairies">Milks & Dairies</option>
+                <option value="Clothing">Clothing</option>
+                <option value="Pet Foods">Pet Foods</option>
+                <option value="Baking material">Baking material</option>
+                <option value="Fresh Fruit">Fresh Fruit</option>
+              </select>
+              <input
+                type="text"
+                placeholder="search For Items"
+                class="p-2 w-50 border-0 border-start text-black-50"
+              />
+              <i class="fa-solid fa-magnifying-glass fa-1x text-black-50"></i>
+            </div>
+          </div>
+          <div class="col-md-4 d-flex icons">
+            <div class="d-flex position-relative ms-5 ps-5">
+              <i class="fa-solid fa-code-compare fa-2x"></i>
+              <p>Compare</p>
+              <div class="position-absolute number">3</div>
+            </div>
+            <div class="d-flex position-relative ms-4">
+              <i class="fa-regular fa-heart fa-2x"></i>
+              <p>Wishlist</p>
+              <div class="position-absolute number">6</div>
+            </div>
+            <div class="d-flex position-relative ms-4">
+              <i class="fa-solid fa-2x fa-cart-shopping"></i>
+              <p>Cart</p>
+              <div class="position-absolute number">2</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav class="navbar navbar-expand-lg border p-0">
+        <div class="container-fluid ms-5 ps-5 mt-4">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Shop
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+            <div class="d-flex justify-content-end w-75">
+              <i class="fa-regular fa-headphones fa-2x"></i>
+              <div>
+                <h5 class="h2-top">1900 - 888</h5>
+                <p class="text-black-50">24/7 Support Center</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class="container mt-4">
+        <div class="row ">
+         <div class="col-12 d-flex justify-content-between align-items-center bg-Blog ps-5 ">
+            <div class="Bl">
+              <h5>Blog & News</h5>
+              <div class="d-flex">
+                <p><i class="fa-regular fa-house"></i> Home <i class="fa-solid fa-angle-right"></i></p>
+                <p> Blog & News</p>
+              </div>
+            </div>
+            <div class="pe-5 buttons">
+               <button><i class="fa-solid fa-xmark"></i> Shopping</button>
+               <button><i class="fa-solid fa-xmark"></i> Recips</button> 
+               <button><i class="fa-solid fa-xmark"></i> Kitchen</button> 
+               <button><i class="fa-solid fa-xmark"></i> News</button> 
+               <button><i class="fa-solid fa-xmark"></i> Food</button>   
+            </div>
+         </div>
+        </div>
+      </div>
+    </header>
+    <section class="mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 d-flex justify-content-between">
+            <figure class="d-flex par-part1">
+            <img src="./imges/category-1.svg (1).png" alt="">
+            <h5 class="mt-1 ms-2"> Recips Articles</h5>
+            </figure>
+            <figcaption class="bar-buttons">
+              <button>Show : 50  <i class="fa-solid fa-angle-down"></i></button>
+              <button>Sort : Feaured <i class="fa-solid fa-angle-down"></i></button>
+          
+                 <input type="text" class="p-3" placeholder="search...">
+                 
+           
+              
+            </figcaption>
+           
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-md-8">
+            <div class="row g-4">
+              <div class="col-md-4">
+                 <figure>
+                  <img src="./imges/1403.png" class="w-100" alt="">
+                 </figure>
+                 <figcaption class="text-center Recips   w-100">
+                   <p class="frst-p">Side Dish</p>
+                   <h5>The Intermediate Guide to Healthy Food</h5>
+                   <div class="d-flex text-center justify-content-around Recips-p">
+                     <p>25 April 2022</p>
+                     <p>126k Views</p>
+                     <p>4 mins read</p>
+                   </div>
+                 </figcaption>
+              </div> 
+               <div class="col-md-4">
+                 <figure>
+                  <img src="./imges/1407.png" class="w-100" alt="">
+                 </figure>
+                 <figcaption class="text-center Recips   w-100">
+                   <p class="frst-p">Soups and Stews</p>
+                   <h5>Summer Quinoa Salad Jars with Lemon Dill</h5>
+                   <div class="d-flex text-center justify-content-around Recips-p">
+                     <p>25 April 2022</p>
+                     <p>126k Views</p>
+                     <p>4 mins read</p>
+                   </div>
+                 </figcaption>
+              </div>
+               <div class="col-md-4">
+                 <figure>
+                  <img src="./imges/1414.png" class="w-100" alt="">
+                 </figure>
+                 <figcaption class="text-center Recips   w-100">
+                   <p class="frst-p">Dessert</p>
+                   <h5>Harissa Chickpeas with Whipped Feta</h5>
+                   <div class="d-flex text-center justify-content-around Recips-p">
+                     <p>25 April 2022</p>
+                     <p>126k Views</p>
+                     <p>4 mins read</p>
+                   </div>
+                 </figcaption>
+              </div>
+               <div class="col-md-4">
+                 <figure>
+                  <img src="./imges/1417.png" class="w-100" alt="">
+                 </figure>
+                 <figcaption class="text-center Recips   w-100">
+                   <p class="frst-p">Breakfast</p>
+                   <h5>Almond Butter Chocolate Chip Zucchini Bars</h5>
+                   <div class="d-flex text-center justify-content-around Recips-p">
+                     <p>25 April 2022</p>
+                     <p>126k Views</p>
+                     <p>4 mins read</p>
+                   </div>
+                 </figcaption>
+              </div>
+              <div class="col-md-4">
+                 <figure>
+                  <img src="./imges/1420.png" class="w-100" alt="">
+                 </figure>
+                 <figcaption class="text-center Recips   w-100">
+                   <p class="frst-p">Vegan</p>
+                   <h5>Smoky Beans & Greens Tacos with Aji Verde</h5>
+                   <div class="d-flex text-center justify-content-around Recips-p">
+                     <p>25 April 2022</p>
+                     <p>126k Views</p>
+                     <p>4 mins read</p>
+                   </div>
+                 </figcaption>
+              </div>
+                <div class="col-md-4">
+                 <figure>
+                  <img src="./imges/1424.png" class="w-100" alt="">
+                 </figure>
+                 <figcaption class="text-center Recips   w-100">
+                   <p class="frst-p">Gluten Free</p>
+                   <h5>Sticky Ginger Rice Bowls with Pickled Veg</h5>
+                   <div class="d-flex text-center justify-content-around Recips-p">
+                     <p>25 April 2022</p>
+                     <p>126k Views</p>
+                     <p>4 mins read</p>
+                   </div>
+                 </figcaption>
+              </div>
+              <div class="col-md-4">
+                 <figure>
+                  <img src="./imges/div.post-thumb.png" class="w-100" alt="">
+                 </figure>
+                 <figcaption class="text-center Recips   w-100">
+                   <p class="frst-p">Side Dish</p>
+                   <h5>Creamy Garlic Sun-Dried Tomato Pasta</h5>
+                   <div class="d-flex text-center justify-content-around Recips-p">
+                     <p>25 April 2022</p>
+                     <p>126k Views</p>
+                     <p>4 mins read</p>
+                   </div>
+                 </figcaption>
+              </div>
+               <div class="col-md-4">
+                 <figure>
+                  <img src="./imges/1431.png" class="w-100" alt="">
+                 </figure>
+                 <figcaption class="text-center Recips   w-100">
+                   <p class="frst-p">Dairy Free</p>
+                   <h5>The Absolute Easiest Spinach and Pizza</h5>
+                   <div class="d-flex text-center justify-content-around Recips-p">
+                     <p>25 April 2022</p>
+                     <p>126k Views</p>
+                     <p>4 mins read</p>
+                   </div>
+                 </figcaption>
+              </div>
+               <div class="col-md-4">
+                 <figure>
+                  <img src="./imges/1434.png" class="w-100" alt="">
+                 </figure>
+                 <figcaption class="text-center Recips   w-100">
+                   <p class="frst-p">Dairy Free</p>
+                   <h5>The Absolute Easiest Spinach and Pizza</h5>
+                   <div class="d-flex text-center justify-content-around Recips-p">
+                     <p>25 April 2022</p>
+                     <p>126k Views</p>
+                     <p>4 mins read</p>
+                   </div>
+                 </figcaption>
+              </div>
+               <div class="col-md-4">
+                 <figure>
+                  <img src="./imges/1437.png" class="w-100" alt="">
+                 </figure>
+                 <figcaption class="text-center Recips   w-100">
+                   <p class="frst-p">Soups</p>
+                   <h5>The Best Soft Chocolate Chip Cookies</h5>
+                   <div class="d-flex text-center justify-content-around Recips-p">
+                     <p>25 April 2022</p>
+                     <p>126k Views</p>
+                     <p>4 mins read</p>
+                   </div>
+                 </figcaption>
+              </div>
+               <div class="col-md-4">
+                 <figure>
+                  <img src="./imges/1440.png" class="w-100" alt="">
+                 </figure>
+                 <figcaption class="text-center Recips   w-100">
+                   <p class="frst-p">Vegetarian</p>
+                   <h5>Baked Mozzarella Chicken Rolls</h5>
+                   <div class="d-flex text-center justify-content-around Recips-p">
+                     <p>25 April 2022</p>
+                     <p>126k Views</p>
+                     <p>4 mins read</p>
+                   </div>
+                 </figcaption>
+              </div>
+               <div class="col-md-4">
+                 <figure>
+                  <img src="./imges/1443.png" class="w-100" alt="">
+                 </figure>
+                 <figcaption class="text-center Recips   w-100">
+                   <p class="frst-p">Dessert</p>
+                   <h5>The Best Avocado Egg Salad</h5>
+                   <div class="d-flex text-center justify-content-around Recips-p">
+                     <p>25 April 2022</p>
+                     <p>126k Views</p>
+                     <p>4 mins read</p>
+                   </div>
+                 </figcaption>
+              </div>
+                <div class="col-md-4">
+                 <figure>
+                  <img src="./imges/1446.png" class="w-100" alt="">
+                 </figure>
+                 <figcaption class="text-center Recips   w-100">
+                   <p class="frst-p">Vegetarian</p>
+                   <h5>The litigants on the screen are not actors</h5>
+                   <div class="d-flex text-center justify-content-around Recips-p">
+                     <p>25 April 2022</p>
+                     <p>126k Views</p>
+                     <p>4 mins read</p>
+                   </div>
+                 </figcaption>
+              </div>
+                <div class="col-md-4">
+                 <figure>
+                  <img src="./imges/1449.png" class="w-100" alt="">
+                 </figure>
+                 <figcaption class="text-center Recips   w-100">
+                   <p class="frst-p">Vegetarian</p>
+                   <h5>The litigants on the screen are not actors</h5>
+                   <div class="d-flex text-center justify-content-around Recips-p">
+                     <p>25 April 2022</p>
+                     <p>126k Views</p>
+                     <p>4 mins read</p>
+                   </div>
+                 </figcaption>
+              </div>
+                 <div class="col-md-4">
+                 <figure>
+                  <img src="./imges/1403.png" class="w-100" alt="">
+                 </figure>
+                 <figcaption class="text-center Recips   w-100">
+                   <p class="frst-p">Side Dish</p>
+                   <h5>The Intermediate Guide to Healthy Food</h5>
+                   <div class="d-flex text-center justify-content-around Recips-p">
+                     <p>25 April 2022</p>
+                     <p>126k Views</p>
+                     <p>4 mins read</p>
+                   </div>
+                 </figcaption>
+              </div> 
+            </div>   
+          </div>
+          <div class="col-md-4">
+          <div class="catg">
+              <h4 class="border-bottom w-100 catg-text-color">Category</h4>
+              <div class="d-flex justify-content-between mt-3 style-cat-name">
+                <img src="./imges/category-1.svg (1).png" alt="mailks" />
+                <p class="catg-text-color">Milks & Dairies</p>
+                <div class="number bg-second">3</div>
+              </div>
+              <div class="d-flex justify-content-between mt-3 style-cat-name">
+                <img src="./imges/category-2.svg.png" alt="mailks" />
+                <p class="catg-text-color">Clothing</p>
+                <div class="number bg-second">4</div>
+              </div>
+              <div class="d-flex justify-content-between mt-3 style-cat-name">
+                <img src="./imges/category-3.svg.png" alt="pet foods" />
+                <p class="catg-text-color">Pet Foods</p>
+                <div class="number bg-second">5</div>
+              </div>
+              <div class="d-flex justify-content-between mt-3 style-cat-name">
+                <img src="./imges/category-4.svg.png" alt="Baking material" />
+                <p class="catg-text-color">Baking material</p>
+                <div class="number bg-second">8</div>
+              </div>
+              <div class="d-flex justify-content-between mt-3 style-cat-name">
+                <img src="./imges/category-5.svg.svg" alt="Baking material" />
+                <p class="catg-text-color">Fresh Fruit</p>
+                <div class="number bg-second">10</div>
+              </div>
+            </div>
+             <div class="catg mt-4">
+              <h4 class="border-bottom w-100 catg-text-color">New products</h4>
+             
+               <div class="mt-5 priceRang d-flex ">
+                <figcaption>
+                   <img src="./imges/thumbnail-3.jpg.png" alt="">
+                </figcaption>
+                <figcaption class="ms-4">
+                <h5>Chen Cardigan</h5>
+                <p class="mb-0">$99.50</p>
+                <i class="fa-solid fa-star text-warning"></i>
+                </figcaption>
+                
+               
+               </div>
+               <div class="mt-5 priceRang d-flex ">
+                <figcaption>
+                   <img src="./imges/thumbnail-4.jpg.png" alt="">
+                </figcaption>
+                <figcaption class="ms-4 ">
+                <h5>Chen Sweater</h5>
+                <p class="mb-0">$89.50</p>
+                <i class="fa-solid fa-star text-warning"></i>
+                </figcaption>
+                
+               
+               </div>
+               <div class="mt-5 priceRang d-flex ">
+                <figcaption>
+                   <img src="./imges/thumbnail-3.jpg.png" alt="">
+                </figcaption>
+                <figcaption class="ms-4">
+                <h5>Colorful Jacket</h5>
+                <p class="mb-0">$25</p>
+                <i class="fa-solid fa-star text-warning"></i>
+                </figcaption>
+                
+               
+               </div>
+               
+              
+              
+               </div>
+               <div class="catg  mt-4">
+              <h4 class="border-bottom w-100 catg-text-color">New products</h4>
+                   <div class="row gx-3">
+                        <div class="imges col-md-4 g-1 d-flex flex-wrap">
+                        <figure>
+                         <img src="./imges/109.png" alt="">
+                        </figure>
+                        </div> 
+                         <div class="imges col-md-4 g-1 d-flex flex-wrap">
+                        <figure>
+                         <img src="./imges/111.png" alt="">
+                        </figure>
+                        </div> 
+                         <div class="imges col-md-4 g-1 d-flex flex-wrap">
+                        <figure>
+                         <img src="./imges/113.png" alt="">
+                        </figure>
+                        </div>
+                          <div class="imges col-md-4 g-1 d-flex flex-wrap">
+                        <figure>
+                         <img src="./imges/117.png" alt="">
+                        </figure>
+                        </div>
+                          <div class="imges col-md-4 g-1 d-flex flex-wrap">
+                        <figure>
+                         <img src="./imges/115.png" alt="">
+                        </figure>
+                        </div>
+                          <div class="imges col-md-4 g-1 d-flex flex-wrap">
+                        <figure>
+                         <img src="./imges/119.png" alt="">
+                        </figure>
+                        </div>
+                   </div>
+                             
+               
+               </div>
+               
+              
+              
+               
+        </div>
+        
+        </div>
+      </div> 
+    </section>
+  
+    <section id="sec7">
+      <div class="container bg-sec">
+        <div class="row">
+          <div class="col-12 mt-5 ms-5 ps-5 pt-5">
+            <div class="sec-content">
+             <h2>Stay home & get your daily needs from our shop</h2>
+             <p class="mt-4 text-black-50">Start You'r Daily Shopping with <span>Nest Mart</span></p>
+             <div class="width">
+               <div class="Subscribe">
+              <i class="fa-regular fa-paper-plane"></i>
+              <input type="email" class="border-0 ms-2" placeholder="Your emaill address">
+              <button>Subscribe</button>
+            </div>
+             </div>
+              
+          </div>
+          </div>
+          
+        </div>
+      </div>
+      
+    </section>
+    <Footer id="sec8">
+     <div class="container">
+       <div class="row g-4">
+         <div class="col-lg-3  col-md-6">
+             <div class="d-flex">
+              <figure>
+                <img src="./imges/Clip path group.png" alt="lago" />
+              </figure>
+              <figcaption class="ms-3">
+                <h2 class="h2-top">Nest</h2>
+                <p class="p-top">MART & GROCERY</p>
+              </figcaption>
+            </div>
+            <p class="hw">Awesome grocery store website template</p>
+            <div class="d">
+              <div class="d-flex location">
+                <i class="fa-solid fa-location-dot"></i>
+                <p>Address: 5171 W Campbell Ave</p>
+              </div>
+              <div class="d-flex location">
+                <i class="fa-regular fa-headphones"></i>
+                <p>Call Us:(+91) - 540-025-124553</p>
+              </div>
+               <div class="d-flex location">
+                <i class="fa-regular fa-paper-plane"></i>
+                <p>Email:sale@Nest.com</p>
+              </div>
+              <div class="d-flex location">
+                <i class="fa-regular fa-clock"></i>
+                <p>Hours:10:00 - 18:00, Mon - Sat</p>
+              </div>
+              
+            </div>
+         </div>
+         <div class="col-lg-2 col-md-6">
+          <div class="Footer-div">
+             <h5>Company</h5>
+             <p>About Us</p>
+             <p>Delivery Information</p>
+             <p>Privacy Policy</p>
+             <p>Terms & Conditions</p>
+             <p>Contact Us</p>
+             <p>Support Center</p>
+             <p>Careers</p>
+          </div>
+         </div>
+         <div class="col-lg-2 col-md-6">
+          <div class="Footer-div">
+             <h5>Account</h5>
+             <p>Sign In</p>
+             <p>View Cart</p>
+             <p>My Wishlist</p>
+             <p>Track My Order</p>
+             <p>Help Ticket</p>
+             <p>Shipping Details</p>
+             <p>Compare products</p>
+          </div>
+         </div>
+       
+          <div class="col-lg-2 col-md-6">
+          <div class="Footer-div">
+             <h5>Popular</h5>
+             <p>Milk & Flavoured Milk</p>
+             <p>Butter and Margarine</p>
+             <p>Eggs Substitutes</p>
+             <p>Marmalades</p>
+             <p>Sour Cream and Dips</p>
+             <p>Tea & Kombucha</p>
+             <p>Cheese</p>
+          </div>
+          
+         </div>
+          <div class="col-lg-3 col-sm-12 col-md-6">
+          <div class="Footer-div">
+             <h5>Install App</h5>
+             <div class="Daonloads mt-5 ">
+              <figcaption class="d-flex">
+                <img src="./imges/162.png"  alt="apple">
+                <img src="./imges/163.png" class="ms-2" alt="apple">
+              </figcaption>
+              <p class="mt-5">Secured Payment Gateways</p>
+             </div>
+            
+          </div>
+          
+         </div>
+         </div>
+        </div>
+        </div>
+    </Footer>
+
+
+    <script src="./Js/jquery-3.7.1.min.js"></script>
+    <script src="./Js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./Js/main.js"></script>
+  </body>
+</html>
