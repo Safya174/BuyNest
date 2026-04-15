@@ -713,7 +713,7 @@ height:55px;
   }
   .Subscribe input {
   flex: 1;               
-  min-width: 0;          
+        
   border: none;
   outline: none;
   padding-left: 10px;
