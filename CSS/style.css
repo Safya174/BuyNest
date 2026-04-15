@@ -693,9 +693,7 @@ height:55px;
   .head-content h1{
     font-size: 45px;
   }
-  .width{
-    width: 80%;
-  }
+ 
   .sec-content h2{
  
   font-size: 20px;
@@ -706,7 +704,7 @@ height:55px;
   font-size: 10px;
 }
   .Subscribe{
-    width: 100%;
+    width: 20%;
   }
   .product img{
    width: 100%;
