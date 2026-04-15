@@ -1,33 +1,4 @@
-if (document.querySelector(".mySwiper")) {
-  new Swiper(".mySwiper", {
-    loop: true,
-    spaceBetween: 20,
-    navigation: {
-      nextEl: ".swiper-button",
-      prevEl: ".swiper-button-pr",
-    },
-    breakpoints: {
-      0: { slidesPerView: 1 },
-      768: { slidesPerView: 2 },
-    },
-  });
-}
 
-if (document.querySelector(".mySwiper-menu")) {
-  new Swiper(".mySwiper-menu", {
-    loop: true,
-    spaceBetween: 20,
-    navigation: {
-      nextEl: ".swiper-button-pr1",
-      prevEl: ".swiper-button-ne1",
-    },
-    breakpoints: {
-      0: { slidesPerView: 1 },
-      768: { slidesPerView: 2 },
-      1200: { slidesPerView: 4 },
-    },
-  });
-}
 $('#Home').click(function(e){
  e.preventDefault();
  $('body').css('overflow', 'hidden');
@@ -44,7 +15,7 @@ $('#Home').click(function(e){
  })
 
 })
-$('#Our-Vision').click(function(e){
+$('#About').click(function(e){
   e.preventDefault()
   $('body').css('overflow','hidden');
   $('body').animate({opacity:0,top:'-20px'},{
@@ -55,11 +26,11 @@ $('#Our-Vision').click(function(e){
       }
   },
     complete: function(){
-      window.location.href = "./OUR Vision.html";
+      window.location.href = './About.html';
     }
   })
 })
-$('#Menu').click(function(e){
+$('#Contact').click(function(e){
   e.preventDefault()
   $('body').css('overflow','hidden');
   $('body').animate({opacity:0,top:'-20px'},{
@@ -71,28 +42,11 @@ $('#Menu').click(function(e){
       }
     },
     complete: function(e){
-      window.location.href = "./Menu.html" 
+      window.location.href = "./Contact Us.html"
     }
   })
 })
-$('#Specials').click(function(e){
-  e.preventDefault()
-  $('body').css('overflow','hidden');
-  $('body').animate({opacity:0,top:'-20px'},{
-    duration:400,
-    step:function(now,fx){
-      if(fx.prop == 'top')
-      {
-        $('body').css('transform',`translateY(${now})px`)
-      }
-
-    },
-    complete: function(e){
-      window.location.href = "./Specials.html" 
-    }
-  })
-})
-$('#Contact-Us').click(function(e){
+$('#Blog').click(function(e){
   e.preventDefault()
   $('body').css('overflow','hidden');
   $('body').animate({opacity:0,top:'-20px'},{
@@ -105,25 +59,26 @@ $('#Contact-Us').click(function(e){
 
     },
     complete: function(e){
-      window.location.href = "./Contact Us.html" 
+      window.location.href = "./Blog.html" 
     }
   })
 })
-let CallckedCatg = "All";
+$('#Blog-Details').click(function(e){
+  e.preventDefault()
+  $('body').css('overflow','hidden');
+  $('body').animate({opacity:0,top:'-20px'},{
+    duration:400,
+    step:function(now,fx){
+      if(fx.prop == 'top')
+      {
+        $('body').css('transform',`translateY(${now})px`)
+      }
 
-$('.btn-categry').click(function(){
-  let foodCatg = $(this).html();
-  CallckedCatg = foodCatg;
-  foodFliter();
+    },
+    complete: function(e){
+      window.location.href = "./Blog-detelis.html" 
+    }
+  })
 })
-function foodFliter() {
-   if(CallckedCatg == 'All')
-   {
-     $('.filter').fadeIn(400)
-   }
-   else{
-    $('.filter').fadeOut(200)
-    $(`.filter[data-name="${CallckedCatg}"]`).show()
-   }
-}
+
 
