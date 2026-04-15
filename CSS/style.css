@@ -693,6 +693,18 @@ height:55px;
   .head-content h1{
     font-size: 45px;
   }
+  .width{
+    width: 100%;
+  }
+  .sec-content h2{
+ 
+  font-size: 20px;
+
+}
+.sec-content p{
+ 
+  font-size: 10px;
+}
   .Subscribe{
     width: 100%;
   }
