@@ -636,6 +636,9 @@ height:55px;
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
 }
+.bg-Blog{
+  min-height: max-content;
+}
 .icons{
   color: #7E7E7E;
 }
@@ -731,7 +734,7 @@ height:55px;
   width: 100%;
 }
 .width1{
-  width: 130%;
+  width: 140%;
   
 }
 
@@ -763,6 +766,10 @@ height:55px;
   }
   .m{
     margin-top: 20px;
+  }
+  .ms-sm{
+    margin-left: 0 !important;
+    padding-left: 0 !important;
   }
 }
 
